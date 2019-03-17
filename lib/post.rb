@@ -23,8 +23,14 @@ end
 
 def author_name 
 
-
-
+ if post.author != nil 
+   
+   post.author_name 
+   
+ else 
+   
+   nil 
+end 
 end 
 end   
 
